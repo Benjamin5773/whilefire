@@ -1,120 +1,13 @@
 body {
     background-color:white;
  }
- /* 上导航 */
- .upNav-container{
-   position:fixed;
-   width: 100vw;
-   height: 120px;
-   margin: 0;
-   padding: 0;
-   right: 0;
-   top: 0;
-   background-color: white;
-   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); /* 水平位置 | 垂直位置 | 模糊半径 | 颜色 */
-   transform: translate(0%,0%);
-   z-index: 1000; 
-   /* border:1px solid red; */
-  
- }
- 
- /* logo */
- .logo-container{
-   height: 52px;
-   position:absolute;
-   display: flex;
-   transform: translate(15%,70%);
-   border:1px solid red;
- 
- }
- 
- .logo-text a{
-   font-family: 'FamiljenGrotesk-Bold';
-   padding-left :20px; 
-   font-size: 42px;
-   margin: 0;
-   color: black; 
-   text-decoration: none; 
-   border:1px solid red;
- }
- /* 导航栏 */
- .menu {
-   width: 1000px;
-   height: 52px;
-   position:absolute;
-   margin-top: 0rem;
-   margin: 0;
-   text-align: end;
-   transform: translate(30%,70%);
-   z-index: 999;
-   border:1px solid wheat;
- }
-  
- .menu ul {
-     list-style: none; 
-     padding: 0; 
-     display: flex;
-     justify-content: flex-start;
- }
-    
- .menu ul li a {
-     font-family: 'FamiljenGrotesk-Medium';
-     font-size: 26px;
-     color: black; 
-     text-decoration: none; 
-     display: inline;
-     margin-right: 10px;
-     padding-left :10px; 
-     padding-right :10px; 
-     padding-bottom: 30px;
-     /* transition: all 0.3s ease-in; */
-    
- }
- 
- .menu ul li a:hover {
-   border-bottom: 3px solid #31579F;
- }
- 
- /* 登录 */
- .login-container{
-   height: 52px;
-   position: absolute;
-   display: flex;
-   transform: translate(0%,70%);
-   right: 50px;
-   border:1px solid red;
- 
- }
- 
- .login-button a{
-   font-family: 'FamiljenGrotesk-Medium';
-   font-size: 28px;
-   position: absolute;
-   background-color: white;
-   color: #31579F;
-   transform: translate(-200%,10%);
-   border-radius: 5px;
-   margin: 0;
-   padding-left :10px; 
-   padding-right :10px; 
-   padding-bottom :10px;
-   text-decoration: none; 
-   transition: all 0.2s ease-in;
-   border:3px solid #31579F;
- 
- }
- 
- .login-button a:hover{
-   background-color: #31579F;
-   color: white; 
- 
- }
+
  /* 页面主体 */
  .homePage-bady{
     position: absolute;
     top: 10%;
     right: 0;
-    border:1px solid wheat;
+    /* border:1px solid wheat; */
  }
  
  /* container 1 */
@@ -126,34 +19,29 @@ body {
    /* transform: translate(0%,10%); */
    top: 0px;
    width: 100vw;
-   border:1px solid red;
+   /* border:1px solid red; */
  }
  /* .homeImage1{
     border:1px solid blue;
  } */
  .container1-content{
    position: absolute;
-   width: 650px;
    top: 30%;
    left: 60%;
    justify-content: flex-start;
-   border:1px solid red;
+   /* border:1px solid red; */
  
  }
  .container1-title{
-   font-family: 'FamiljenGrotesk-Bold';
-   font-size: 96px;
    margin-bottom: 2%;
-   border:1px solid red;
+   /* border:1px solid red; */
  }
  .container1-body{
-   font-family: 'FamiljenGrotesk-Regular';
-   font-size: 26px;
    margin-bottom: 3%;
-   border:1px solid red;
+   /* border:1px solid red; */
  }
  .container1-two-buttons{
-   border:1px solid red;
+   /* border:1px solid red; */
  }
  .container1-two-buttons:hover{
    cursor: pointer;
@@ -168,39 +56,31 @@ body {
     right: 0;
     /* transform: translate(0%,100%); */
     width: 100vw;
-    border:1px solid black;
+    /* border:1px solid black; */
   }
   .container2-content{
     position: absolute;
-    width: 900px;
     top: 30%;
     left: 15%;
     justify-content: flex-start;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
 
   .container2-title-img{
     display: flex;
-    width: 900px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   .container2-title-img-text{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 40px;
     margin-left: 10px;
     color: #31579F;
 
   }
   .container2-title{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 64px;
-    margin-bottom: 10%;
-    border:1px solid red;
+    margin-bottom: 8%;
+    /* border:1px solid red; */
   }
   .container2-body{
-    font-family: 'FamiljenGrotesk-Regular';
-    font-size: 26px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
 
 
@@ -213,45 +93,36 @@ body {
     right: 0;
     /* transform: translate(0%,100%); */
     width: 100vw;
-    border:1px solid black;
+    /* border:1px solid black; */
   }
   .container3-content{
     position: absolute;
-    width: 900px;
     top: 10%;
     left: 15%;
     justify-content: flex-start;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
 
   .container3-title-img{
     display: flex;
-    width: 900px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   .container3-title-img-text{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 40px;
     margin-left: 10px;
     color: #31579F;
 
   }
   .container3-title{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 64px;
-    margin-bottom: 10%;
-    border:1px solid red;
+    margin-bottom: 5%;
+    /* border:1px solid red; */
   }
   .container3-body-img{
     display: flex;
-    width: 900px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   .container3-body{
-    font-family: 'FamiljenGrotesk-Regular';
     transform: translate(-6%,5%);
-    font-size: 26px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
 
 
@@ -263,34 +134,28 @@ body {
     right: 0;
     /* transform: translate(0%,100%); */
     width: 100vw;
-    border:1px solid black;
+    /* border:1px solid black; */
   }
   .container4-content{
     position: absolute;
-    width: 900px;
     top: 10%;
     left: 15%;
     justify-content: flex-start;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
 
   .container4-title-img{
     display: flex;
-    width: 900px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   .container4-title-img-text{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 40px;
     margin-left: 10px;
     color: #31579F;
 
   }
   .container4-title{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 64px;
-    margin-bottom: 10%;
-    border:1px solid red;
+    margin-bottom: 5%;
+    /* border:1px solid red; */
   }
 
 
@@ -302,87 +167,34 @@ body {
     right: 0;
     /* transform: translate(0%,100%); */
     width: 100vw;
-    border:1px solid black;
+    /* border:1px solid black; */
   }
   .container5-content{
     position: absolute;
-    width: 900px;
     top: 20%;
     left: 15%;
     justify-content: flex-start;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
 
   .container5-title-img{
     display: flex;
-    width: 900px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   .container5-title-img-text{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 40px;
     margin-left: 10px;
     color: #31579F;
 
   }
   .container5-title{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 64px;
-    margin-bottom: 10%;
-    border:1px solid red;
+    margin-bottom: 5%;
+    /* border:1px solid red; */
   }
   .container5-body{
-    font-family: 'FamiljenGrotesk-Regular';
-    color: black;
-    font-size: 26px;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   .container5-body a{
     color: black;
   }
-  /* 页脚 */
-  .footer-container {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.2); 
-    border:1px solid red;
-  }
 
-  .footer-section
-  {
-    margin-right: 10%;
-  }
-  .footer-section h4 {
-    font-family: 'FamiljenGrotesk-Bold';
-    margin: 0 0 1px 0;
-    font-size: 24px;
-    border:1px solid red;
-  }
   
-  .footer-section h3{
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 30px;
-    border:1px solid red;
-  }
-  .footer-section p {
-    margin: 0;
-    font-size: 18px;
-    border:1px solid red;
-  }
-
-  .footer-section-img{
-    position: absolute;
-    width: 300px;
-    right: 3%;
-    display: flex;
-    align-items: center;
-    font-family: 'FamiljenGrotesk-Bold';
-    font-size: 24px;
-    border:1px solid red;
-  }
-  .footer-section-img img{
-    margin-left: 20px;
-  }
- 
